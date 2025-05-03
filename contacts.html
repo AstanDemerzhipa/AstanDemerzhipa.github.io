@@ -1,22 +1,48 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Контакты</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <section class="section2">
-    <h1>Контакты</h1>
-    <h2>
-        Связатсья с нашей компанией можно в Telegram, по номеру +1510000000
-    </h2>
-    <img src="https://mspoweruser.com/wp-content/uploads/2022/03/Telegram-Logo.png">
-    <h2>
-        Работаем более в 30 Государств
-        В таких как: США, Япония, Мальдивы, Франция, Египет, Канада, Великобритания
-    </h2>
-    </section>
+    <header>
+        <div class="logo">Paradise</div>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="interes.html">Почему выбирают нас?</a>
+            <a href="">Контакты</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h1>Свяжитесь с нами</h1>
+            <form action="#" method="POST">
+                <label for="name">Имя:</label><br>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Сообщение:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+
+                <button type="submit" class="button">Отправить сообщение</button>
+            </form>
+        </section>
+
+        <section class="contact-info">
+            <h2>Наши контакты</h2>
+            <p>📞 Телефон: +123 456 7890</p>
+            <p>📧 Email: info@paradise.com</p>
+            <p>🏢 Адрес: 123 Paradise St, Dream City, Country</p>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2025 Paradise. Все права защищены.</p>
+        </div>
+    </footer>
 </body>
 </html>
