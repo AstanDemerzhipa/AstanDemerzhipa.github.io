@@ -79,6 +79,7 @@ main {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(27, 91, 227, 0.4);
     animation: scaleUp 0.3s forwards;
+    transform: scale(1.1);
 }
 
 .hotel img {
@@ -130,10 +131,10 @@ footer {
 
 @keyframes scaleUp {
             from {
-                transform: scale(1); /* Начальный масштаб */
+                transform: scale(1); 
             }
             to {
-                transform: scale(1.1); /* Конечный масштаб */
+                transform: scale(1.1);
             }
         }
 
