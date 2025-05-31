@@ -78,6 +78,7 @@ main {
     background-color: #155cb7;
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(27, 91, 227, 0.4);
+    animation: scaleUp 0.3s forwards;
 }
 
 .hotel img {
@@ -125,4 +126,14 @@ footer {
 .copyright p {
     color: #555;
 }
+
+
+@keyframes scaleUp {
+            from {
+                transform: scale(1); /* Начальный масштаб */
+            }
+            to {
+                transform: scale(1.1); /* Конечный масштаб */
+            }
+        }
 
