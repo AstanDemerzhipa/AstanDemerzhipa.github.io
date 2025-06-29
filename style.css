@@ -38,6 +38,67 @@ nav a {
     transition: color 0.3s;
 }
 
+.wrapper {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.wrapper__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.login-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+
+.user-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.user-info__item {
+    margin-bottom: 15px; 
+}
+
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 10%;
+    padding: 10px;
+    min-width: 300px;
+    cursor: pointer;
+    align-self: center;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: #272727;
+    font: inherit;
+    color: #fff;
+}
+
 nav a:hover {
     color: #1b5be3;
 }
